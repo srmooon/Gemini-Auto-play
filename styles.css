@@ -1,0 +1,73 @@
+.tts-player-container {
+  position: absolute;
+  top: 12px;
+  left: -40px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tts-play-button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.tts-play-button:hover:not(:disabled) {
+  opacity: 1;
+}
+
+.tts-play-button:disabled {
+  opacity: 0.4;
+  cursor: wait;
+}
+
+.tts-progress-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: rgba(37, 99, 235, 0.1);
+  padding: 6px;
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+.tts-progress-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.tts-progress-fill {
+  height: 100%;
+  background: #2563eb;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.tts-time-display {
+  font-size: 10px;
+  color: #2563eb;
+  text-align: center;
+  font-family: monospace;
+}
+
+.response-content {
+  position: relative;
+}

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Auto Listen",
+  "version": "1.0.0",
+  "description": "Automatically clicks the Listen button on new Gemini responses",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://translate.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gemini.google.com/*",
+        "https://aistudio.google.com/*",
+        "https://*.google.com/gem/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "options_page": "options.html"
+}
