@@ -21,13 +21,17 @@ A Chrome/Edge extension that automatically clicks Gemini's native "Listen" butto
 #### Easy Install (Recommended)
 
 1. **Download the CRX file**: [Gemini Audio Listen.crx](https://github.com/srmooon/Gemini-Auto-play/raw/main/Gemini%20Audio%20Liten.crx)
-2. Open your browser and go to `chrome://extensions/` (Chrome) or `edge://extensions/` (Edge)
+2. Open your browser extensions page:
+   - **Chrome**: `chrome://extensions/`
+   - **Edge**: `edge://extensions/`
+   - **Brave**: `brave://extensions/`
+   - **Opera / Opera GX**: `opera://extensions/`
 3. **Drag and drop** the downloaded `.crx` file into the extensions page
-4. Click **"Keep"** when the warning appears
-5. Click the **3 dots menu** on the extension card → Select **"Keep extension"**
-6. Done! The extension is now installed
+4. **Confirm installation**:
+   - **Edge, Opera, Opera GX**: Click "Add extension" → Done! ✅
+   - **Chrome, Brave**: Click "Keep" → Click the 3 dots menu → "Keep extension" ✅
 
-**Supported Browsers**: Chrome, Edge, Brave, Opera, Vivaldi, and other Chromium-based browsers
+**Supported Browsers**: Chrome, Edge, Brave, Opera, Opera GX, Vivaldi, and other Chromium-based browsers
 
 #### From Source (For Developers)
 
@@ -105,13 +109,17 @@ Uma extensão para Chrome/Edge que clica automaticamente no botão "Ouvir" nativ
 #### Instalação Fácil (Recomendado)
 
 1. **Baixe o arquivo CRX**: [Gemini Audio Listen.crx](https://github.com/srmooon/Gemini-Auto-play/raw/main/Gemini%20Audio%20Liten.crx)
-2. Abra seu navegador e vá em `chrome://extensions/` (Chrome) ou `edge://extensions/` (Edge)
+2. Abra a página de extensões do seu navegador:
+   - **Chrome**: `chrome://extensions/`
+   - **Edge**: `edge://extensions/`
+   - **Brave**: `brave://extensions/`
+   - **Opera / Opera GX**: `opera://extensions/`
 3. **Arraste e solte** o arquivo `.crx` baixado na página de extensões
-4. Clique em **"Manter"** quando o aviso aparecer
-5. Clique no **menu de 3 pontos** no card da extensão → Selecione **"Manter extensão"**
-6. Pronto! A extensão está instalada
+4. **Confirme a instalação**:
+   - **Edge, Opera, Opera GX**: Clique em "Adicionar extensão" → Pronto! ✅
+   - **Chrome, Brave**: Clique em "Manter" → Clique no menu de 3 pontos → "Manter extensão" ✅
 
-**Navegadores Suportados**: Chrome, Edge, Brave, Opera, Vivaldi e outros navegadores baseados em Chromium
+**Navegadores Suportados**: Chrome, Edge, Brave, Opera, Opera GX, Vivaldi e outros navegadores baseados em Chromium
 
 #### Do Código Fonte (Para Desenvolvedores)
 
